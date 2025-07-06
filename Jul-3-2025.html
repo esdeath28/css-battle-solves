@@ -1,0 +1,58 @@
+<!-- https://cssbattle.dev/play/PotoXFjM1AAznqipNoIy -->
+
+<div class="container">
+  <div class="column">
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+  </div>
+  <div class="column">
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+  </div>
+</div>
+
+<style>
+  body {
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    background: #CE636F;
+    height: 100%;
+    align-items: flex-start;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .element {
+    width: 80px;
+    height: 80px;
+  }
+
+  .element:nth-child(odd) {
+    background-color: #F7BED9;
+  }
+
+  .element:nth-child(even) {
+    background-color: #B44141;
+  }
+  
+  .container .column:nth-child(2) .element:first-child {
+    border-radius: 0 0 0 40px;
+  }
+
+  .container .column:nth-child(2) .element:last-child {
+    border-radius: 0 0 40px 0;
+  }
+</style>
