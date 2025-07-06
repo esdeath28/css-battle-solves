@@ -4,4 +4,5 @@ I like to solve these kinda stuff and keeping it all at one repo for fun.
 
 ## Problem links:
 - Jul 3, 2025 : https://cssbattle.dev/play/PotoXFjM1AAznqipNoIy
+- Jul 5, 2025 : https://cssbattle.dev/play/9pmoNJO6U1Dl2415Kii0
 - Jul 6, 2025 : https://cssbattle.dev/play/3KjaoKMq6bMg4yOmz6YJ
